@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.PhotocopyFavorFragment">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/favor_copy_text"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/photocopyCodeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:autofillHints="number"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/favor_copy_code"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/photocopyPlaceTxT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:autofillHints="text"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/favor_place"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/photocopySubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/favor_submit" />
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.jabustillo.karma.ui.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.jabustillo.karma.ui.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.jabustillo.karma.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/askFavorFragment"
+        android:name="com.jabustillo.karma.ui.AskFavorFragment"
+        android:label="fragment_ask_favor"
+        tools:layout="@layout/fragment_ask_favor" />
+    <fragment
+        android:id="@+id/myFavorsFragment"
+        android:name="com.jabustillo.karma.ui.MyFavorsFragment"
+        android:label="fragment_my_favors"
+        tools:layout="@layout/fragment_my_favors" />
+    <fragment
+        android:id="@+id/photocopyFavorFragment"
+        android:name="com.jabustillo.karma.ui.PhotocopyFavorFragment"
+        android:label="fragment_photocopy_favor"
+        tools:layout="@layout/fragment_photocopy_favor" />
+    <fragment
+        android:id="@+id/km5FavorFragment"
+        android:name="com.jabustillo.karma.ui.Km5FavorFragment"
+        android:label="fragment_km5_favor"
+        tools:layout="@layout/fragment_km5_favor" />
+    <fragment
+        android:id="@+id/deliveryFavorFragment"
+        android:name="com.jabustillo.karma.ui.DeliveryFavorFragment"
+        android:label="fragment_delivery_favor"
+        tools:layout="@layout/fragment_delivery_favor" />
+    <fragment
+        android:id="@+id/favorDetailsFragment"
+        android:name="com.jabustillo.karma.ui.FavorDetailsFragment"
+        android:label="fragment_favor_details"
+        tools:layout="@layout/fragment_favor_details" />
+    <fragment
+        android:id="@+id/messagesFragment"
+        android:name="com.jabustillo.karma.ui.MessagesFragment"
+        android:label="MessagesFragment" />
+</navigation>

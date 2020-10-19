@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.MyFavorsFragment">
+
+    <Button
+        android:id="@+id/NavToAskFavorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_ask_favor" />
+
+    <Button
+        android:id="@+id/navToHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go home" />
+
+    <RadioGroup
+        android:id="@+id/categoryGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/allCategoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/favor_all" />
+
+        <RadioButton
+            android:id="@+id/photocopyCategoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/favor_copy_name" />
+
+        <RadioButton
+            android:id="@+id/km5CategoryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/favor_km5_name" />
+
+        <RadioButton
+            android:id="@+id/deliveryCategoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/favor_delivery_name" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/favorsGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/everyoneFavors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/favor_all" />
+
+        <RadioButton
+            android:id="@+id/myFavorsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/favor_my_favors" />
+    </RadioGroup>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/favorsRecycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

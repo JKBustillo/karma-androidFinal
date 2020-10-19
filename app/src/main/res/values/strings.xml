@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Karma</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="auth_register_text">Register</string>
+    <string name="auth_login_text">Log In</string>
+    <string name="auth_name">Name</string>
+    <string name="auth_email">Email</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_confirm">Confirm Password</string>
+    <string name="auth_nav_to_register">Don\'t have an account?</string>
+    <string name="auth_nav_to_login">Already have an account?</string>
+
+    <string name="home_karma">Karma:</string>
+    <string name="home_my_favors">Favors</string>
+    <string name="home_ask_favor">Ask a favor</string>
+    <string name="home_logout">Log out</string>
+
+    <string name="favor_select">Select the type of favor</string>
+    <string name="favor_copy">Photocopies</string>
+    <string name="favor_km5">Buy something in KM5</string>
+    <string name="favor_delivery">Pick up a delivery</string>
+    <string name="favor_submit">Submit favor</string>
+    <string name="favor_place">How can we find you?</string>
+    <string name="favor_details">Favor Details</string>
+    <string name="favor_my_favors">My favors</string>
+    <string name="favor_all">All</string>
+    <string name="favor_copy_name">Photocopy</string>
+    <string name="favor_km5_name">Km5</string>
+    <string name="favor_delivery_name">Delivery</string>
+    <string name="favor_chat">Chat</string>
+    <string name="favor_back">Go back</string>
+
+    <string name="favor_copy_text">Introduce the photocopy code</string>
+    <string name="favor_copy_code">Example: 123456</string>
+
+    <string name="favor_km5_text">Introduce the product</string>
+    <string name="favor_km5_product">Example: Portaminas .7</string>
+    <string name="favor_km5_amount">Example: 3</string>
+
+    <string name="favor_delivery_text">Introduce the delivery code</string>
+    <string name="favor_delivery_code">Example: 987654</string>
+</resources>

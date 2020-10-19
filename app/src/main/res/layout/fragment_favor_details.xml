@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".ui.FavorDetailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/favor_details"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/favorIdTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="3dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/favorUserTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="3dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/favorTypeTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="3dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/favorCodeTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="3dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/favorPlaceTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="3dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/favorStateTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="3dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/favorAcceptedTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="3dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/changeStateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="3dp"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/chatButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="3dp"
+        android:text="@string/favor_chat" />
+
+    <Button
+        android:id="@+id/goBackButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="3dp"
+        android:text="@string/favor_back" />
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="70dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.RegisterFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:gravity="center"
+        android:text="@string/auth_register_text"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:autofillHints="username"
+        android:ems="10"
+        android:hint="@string/auth_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/emailTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:autofillHints="email"
+        android:ems="10"
+        android:hint="@string/auth_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passwordTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:autofillHints="password"
+        android:ems="10"
+        android:hint="@string/auth_password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/confirmPasswordTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:autofillHints="password"
+        android:ems="10"
+        android:hint="@string/auth_confirm"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:text="@string/auth_register_text" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:gravity="center"
+        android:text="@string/auth_nav_to_login" />
+
+    <Button
+        android:id="@+id/NavToLoginbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:text="@string/auth_login_text" />
+</LinearLayout>
